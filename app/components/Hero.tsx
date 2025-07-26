@@ -82,7 +82,7 @@ export default function Hero() {
                       : 'w-[150%] md:w-[150%] lg:w-[150%] left-[12px]'
                   }
                 `}
-                src="/Video_Ready_No_Names.mp4"
+                src="https://res.cloudinary.com/dh626d9by/video/upload/v1753556707/Video_Ready_No_Names_opjicy.mov"
                 autoPlay
                 loop
                 muted
@@ -110,18 +110,10 @@ export default function Hero() {
                 </span>
 
                 <button className="text-white border rounded-3xl bg-black py-2 px-4 flex gap-2 items-center">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="..."/>
-                  </svg>
                   Stars on Github 200+
                 </button>
 
                 <button className="text-white border rounded-3xl bg-black py-2 px-4 flex gap-2 items-center">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="..."/>
-                  </svg>
                   Secured with Clerk
                 </button>
               </div>
